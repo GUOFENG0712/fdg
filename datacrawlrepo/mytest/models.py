@@ -9,3 +9,11 @@ class MyModel(models.Model):
     email = models.EmailField()
     age = models.IntegerField()
     pass
+class WcyDate(models.Model):
+    '''
+    篮球皇帝
+    '''
+    name = models.CharField(max_length=100)
+    age = models.IntegerField()
+    hobby = models.CharField(max_length=100)
+    pass
